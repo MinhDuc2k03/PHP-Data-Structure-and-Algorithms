@@ -1,6 +1,7 @@
 <?php
-class Node
-{
+namespace Dell\PhpDataStructureAndAlgorithms\DataStructures;
+
+class Node {
     public $parent, $value, $left, $right;
 
     public function __construct($value, Node $parent = null)

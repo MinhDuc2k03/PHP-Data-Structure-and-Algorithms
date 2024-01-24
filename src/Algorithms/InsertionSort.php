@@ -1,4 +1,6 @@
 <?php
+namespace Dell\PhpDataStructureAndAlgorithms\Algorithms;
+
 function insertionSort($array) {
     $length = count($array);
     

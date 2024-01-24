@@ -1,4 +1,6 @@
 <?php
+namespace Dell\PhpDataStructureAndAlgorithms\Algorithms;
+
 function linearSearch($array, $n) {
     $length = count($array);
 

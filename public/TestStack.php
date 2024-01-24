@@ -1,5 +1,6 @@
 <?php
-include './stack.php';
+include "../vendor/autoload.php";
+use Dell\PhpDataStructureAndAlgorithms\DataStructures\Stack;
 
 $stack = new Stack();
 $stack->push(10);

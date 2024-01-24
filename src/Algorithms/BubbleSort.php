@@ -1,4 +1,6 @@
 <?php
+namespace Dell\PhpDataStructureAndAlgorithms\Algorithms;
+
 function bubbleSort($array) {
     $length = count($array);
 

@@ -1,4 +1,6 @@
 <?php
+namespace Dell\PhpDataStructureAndAlgorithms\Algorithms;
+
 function selectionSort($array) {
     $length = count($array);
 

@@ -1,0 +1,15 @@
+{
+    "name": "dell/php-data-structure-and-algorithms",
+    "autoload": {
+        "psr-4": {
+            "Dell\\PhpDataStructureAndAlgorithms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MinhDuc2k03",
+            "email": "149854442+MinhDuc2k03@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

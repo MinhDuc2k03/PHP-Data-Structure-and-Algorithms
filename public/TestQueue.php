@@ -1,5 +1,6 @@
 <?php
-include './queue.php';
+include "../vendor/autoload.php";
+use Dell\PhpDataStructureAndAlgorithms\DataStructures\Queue;
 
 $queue = new Queue();
 $queue->enqueue(10);

@@ -1,5 +1,7 @@
 <?php
-include './binary-search-tree.php';
+include "../vendor/autoload.php";
+use Dell\PhpDataStructureAndAlgorithms\DataStructures\BinarySearchTree;
+
 
 // Instantiate a new tree with root node of 5
 $bst = new BinarySearchTree(5);
@@ -19,6 +21,6 @@ $bst->insert(34);
 // Walk the tree
 $tree = $bst->walk();
 foreach($tree as $node) {
-    echo "{$node->value}\n";
+    echo "{$node->value}" . PHP_EOL;
 }
 ?>

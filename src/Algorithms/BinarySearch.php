@@ -1,4 +1,6 @@
 <?php
+namespace Dell\PhpDataStructureAndAlgorithms\Algorithms;
+
 // LƯU Ý: BINARY SEARCH CHỈ DÙNG CHO ARRAY ĐÃ ĐƯỢC SẮP SẾP
 function binarySearch($array, $n) {
     $length = count($array);
